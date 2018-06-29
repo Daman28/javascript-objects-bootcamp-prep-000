@@ -1,4 +1,5 @@
 var playlist = { 'atif aslam' : 'aao chalein'}
-function updatePlaylist(object, artistname, song) {
-  object = 
+function updatePlaylist(obj, artistname, song) {
+  obj[key] = value;
+  return obj;
 }
