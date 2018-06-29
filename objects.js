@@ -8,6 +8,7 @@ updatePlaylist(playlist, 'Rahat', 'Pyar');
 
 function removePlaylist(obj, artistname) {
   delete[obj].artistname;
+  return obj;
 }
 
 
