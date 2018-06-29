@@ -10,5 +10,5 @@ function removePlaylist(obj, artistname) {
   delete obj.artistname;
   return obj;
 }
-
+ removePlaylist(plalist, 'Rahat');
 
